@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	rsc "rsc.io/quote"
+	rscQuote "rsc.io/quote"
 	rscSampler "rsc.io/sampler"
 )
 
@@ -16,9 +16,9 @@ func main() {
 	lang := os.Getenv("LANG")
 	fmt.Println("LANG is set to:", lang)
 
-	fmt.Println("Hello World.", rscSampler.Hello())
-	fmt.Println("glass => ", rsc.Glass())
-	fmt.Println("go => ", rsc.Go())
-	fmt.Println("hello => ", rsc.Hello())
-	fmt.Println("opt => ", rsc.Opt())
+	fmt.Println("Bye World.", rscSampler.Hello())
+	fmt.Printf("glass => %s", rscQuote.Glass())
+	fmt.Println("go => ", rscQuote.Go())
+	fmt.Println("hello => ", rscQuote.Hello())
+	fmt.Println("opt => ", rscQuote.Opt())
 }
