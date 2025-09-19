@@ -1,3 +1,3 @@
 module github.com/nickpricks/go-examples/go-server
 
-go 1.23.1
+go 1.25.1

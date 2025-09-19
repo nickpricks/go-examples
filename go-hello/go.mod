@@ -1,6 +1,6 @@
 module github.com/nickpricks/go-examples/go-hello
 
-go 1.23.1
+go 1.25.1
 
 require (
 	rsc.io/quote v1.5.2

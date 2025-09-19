@@ -1,0 +1,2 @@
+for:
+    go run go-for/foor.go
